@@ -28,6 +28,15 @@ function Navbar() {
                 
             </NavLink>
         </ul>
+        <div>
+        <button 
+  className="bg-primary text-white px-8 py-3 rounded-full font-light hidden md:inline-block"
+>
+  Create Account
+</button>
+
+        </div>
+    
     </div>
   )
 }
