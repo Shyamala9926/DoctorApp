@@ -10,11 +10,11 @@ function Header() {
                 Book Appointment <br /> with Trusted Docters
             </p>
             <div children='flex flex-col md:flex-row items-center gap-3 text-white text-sm font-light'>
-            <img src={assets.group_profiles} alt='' />
-            <p>Simply browse through our extensive list of trusted doctors,<br />Schedule your appointment hassle-free.</p>
+            <img className='w-28' src={assets.group_profiles} alt='' />
+            <p>Simply browse through our extensive list of trusted doctors,<br className='hidden sm:block'/>Schedule your appointment hassle-free.</p>
             </div>
-            <a href=''>
-                Book appointment <img src={assets.arrow_icon} alt=''/>
+            <a href='#speciality' className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300'>
+                Book appointment <img className='w-3' src={assets.arrow_icon} alt=''/>
             </a>
 
         </div>
