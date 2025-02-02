@@ -15,6 +15,7 @@ function App() {
    
     <div className='max-4 sm:mx-[10%]'>
      <Navbar />
+     <Home />
       <Routes>
         <Route path='/'element={<Home />} />
         <Route path='/doctors'element={<Doctors/>} />
