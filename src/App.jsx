@@ -10,12 +10,13 @@ import Navbar from './pages/Navbar'
 import Doctors from './pages/Doctors'
 import About from './pages/About'
 import Appointment from './pages/Appointment'
+
 function App() {
   return (
    
     <div className='max-4 sm:mx-[10%]'>
      <Navbar />
-     <Home />
+     
       <Routes>
         <Route path='/'element={<Home />} />
         <Route path='/doctors'element={<Doctors/>} />
