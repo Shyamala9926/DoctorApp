@@ -5,5 +5,7 @@ export const AppContext = createContext
 const AppContextProvider = ()=>{
 
 
-    
+    const value ={
+
+    }
 }
