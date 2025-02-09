@@ -71,4 +71,4 @@ const {docters} = useContext(AppContext)
   );
 }
 
-export default TopDoctors;
+export default TopDoctors
