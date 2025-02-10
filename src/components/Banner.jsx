@@ -2,7 +2,18 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div>Banner</div>
+    <div>
+      {/*----- left side-----*/}
+      <div>
+
+      </div>
+
+       {/*----- right side-----*/}
+       <div>
+        
+        </div>
+
+    </div>
   )
 }
 
