@@ -8,6 +8,8 @@ function Banner() {
         <div>
           <p> Book Appointment</p>
           <p>With 100+ Trusted Docters</p>
+          <p>With 100+ Trusted Docters</p>
+          <p>With 100+ Trusted Docters</p>
         </div>
         <button>Create account</button>
 
