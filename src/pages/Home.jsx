@@ -11,6 +11,7 @@ function Home() {
      <SpecialityMenu />
      <TopDoctors />
      <Banner />
+    
     </div>
   )
 }
