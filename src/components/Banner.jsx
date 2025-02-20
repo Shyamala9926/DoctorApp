@@ -11,7 +11,7 @@ function Banner() {
           <p className='mt-4'>With 100+ Trusted Docters</p>
           
         </div>
-        <button>Create account</button>
+        <button className='bg-white text-sm sm:text-base text-gray-600 px-8 py-3 rounded-full mt-6 hover:scale-105 transition-all'>Create account</button>
 
       </div>
 
