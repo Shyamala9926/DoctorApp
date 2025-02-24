@@ -2,7 +2,22 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div>
+        <div>
+            {/*--- left section -----*/}
+            <div>
+
+            </div>
+            {/*--- center section -----*/}
+            <div>
+                
+            </div>
+            {/*--- right section -----*/}
+            <div>
+                
+            </div>
+        </div>    
+    </div>
   )
 }
 
