@@ -1,4 +1,5 @@
 import React from 'react'
+import {assets} from '../assets/assets'
 
 function Footer() {
   return (
@@ -6,6 +7,8 @@ function Footer() {
         <div>
             {/*--- left section -----*/}
             <div>
+              <img src={assets.logo} alt=''/>
+              <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
 
             </div>
             {/*--- center section -----*/}
