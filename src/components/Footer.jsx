@@ -13,13 +13,30 @@ function Footer() {
             </div>
             {/*--- center section -----*/}
             <div>
-                
+               <p>COMPANY</p> 
+               <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>content</li>
+                <li>privacy policy</li>
+               </ul>
             </div>
             {/*--- right section -----*/}
             <div>
-                
+               <p> Get in tough</p> 
+               <ul>
+                <li>+1-212-456-7890</li>
+                <li>docter2025@gmail.com</li>
+               </ul>
             </div>
-        </div>    
+        </div> 
+        {/* --- copy right text ----*/}  
+        <div>
+          <hr/>
+          <div>
+
+          </div>
+          </div> 
     </div>
   )
 }
