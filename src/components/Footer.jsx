@@ -27,6 +27,7 @@ function Footer() {
                <ul>
                 <li>+1-212-456-7890</li>
                 <li>docter2025@gmail.com</li>
+                <li>Hyderabad,telangana,india</li>
                </ul>
             </div>
         </div> 
