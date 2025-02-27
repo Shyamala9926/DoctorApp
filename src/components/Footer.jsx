@@ -8,7 +8,7 @@ function Footer() {
             {/*--- left section -----*/}
             <div>
               <img src={assets.logo} alt=''/>
-              <p>Lorem ipsum is simply dummy text of the printing and type setting industry.</p>
+              <p>Lorem ipsum is simply dummy text of the printing.</p>
 
             </div>
             {/*--- center section -----*/}
