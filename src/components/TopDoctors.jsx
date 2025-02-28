@@ -34,7 +34,7 @@ import { doctors } from '../assets/assets';
 import { AppContext } from '../context/AppContext';
 
 function TopDoctors() {
-  const navigate = useNavigate(); // Initialize navigate function
+  const navigate = useNavigate(); 
 const {docters} = useContext(AppContext)
   return (
     <div className='flex flex-col items-center gap-4 my-16 text-gray-900 md:mx-10'>
