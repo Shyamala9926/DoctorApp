@@ -14,8 +14,8 @@ function Footer() {
 
             {/*--- center section -----*/}
             <div>
-               <p>COMPANY</p> 
-               <ul>
+               <p className='text-xl font-medium mb-5'>COMPANY</p> 
+               <ul className='flex flex-col gap-2 text-gray-600'>
                 <li>Home</li>
                 <li>About</li>
                 <li>Content</li>
@@ -24,21 +24,19 @@ function Footer() {
             </div>
             {/*--- right section -----*/}
             <div>
-               <p> Get in tough</p> 
-               <ul>
+               <p className='text-xl font-medium mb-5'> Get in tough</p> 
+               <ul className='flex flex-col gap-2 text-gray-600'>
                 <li>+1-212-456-7890</li>
                 <li>docter2025@gmail.com</li>
                 <li>Hyderabad,telangana,india</li>
                </ul>
             </div>
         </div> 
+
         {/* --- copy right text ----*/}  
         <div>
           <hr/>
-          <p>copy right paragraph</p>
-          <div>
-
-          </div>
+          <p className='py-5 text-sm text-center'>copy right paragraph</p>
           </div> 
     </div>
   )
