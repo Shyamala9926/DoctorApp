@@ -5,6 +5,7 @@ function Footer() {
   return (
     <div className='md:mx-10'>
         <div className='flex flex-col sm: grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
+
             {/*--- left section -----*/}
             <div>
               <img className='mb-5 w-40' src={assets.logo} alt=''/>
@@ -22,6 +23,7 @@ function Footer() {
                 <li>Privacy policy</li>
                </ul>
             </div>
+            
             {/*--- right section -----*/}
             <div>
                <p className='text-xl font-medium mb-5'> Get in tough</p> 
