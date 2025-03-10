@@ -17,6 +17,9 @@ function Doctors() {
           <p>pediatricians</p>
           <p>Neurologist</p>
           <p>Gastroenterologist</p>
+          <p>Cardiologists</p>
+          <p>Gastroenterologist</p>
+          <p>Psychiatrist</p>
       
 
         </div>
