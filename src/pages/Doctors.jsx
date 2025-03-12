@@ -1,12 +1,27 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { AppContext } from '../context/AppContext'
 
 function Doctors() {
 
   const {speciality}=useParams()
   const [filterDoc,setfilterDoc] =useState([])
+
   const {doctors}= useContext(AppContext)
-  console.log(speciality)
+
+  const applyFilter =()=>{
+    if (speciality){
+      setfilterDoc(doctors.filterDoc(doc => doc.speciality === speciality))
+    }
+    else{
+      setfilterDoc(doctors)
+    }
+  }
+
+  useEffect(()=>{
+applyFilter()
+  },[doctors,speciality])
+  //console.log(speciality)
   return (
     <div>
       <p>Browse through the doctors specialist.</p>
