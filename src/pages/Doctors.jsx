@@ -1,11 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { AppContext } from '../context/AppContext'
 
 function Doctors() {
 
   const {speciality}=useParams()
   const [filterDoc,setfilterDoc] =useState([])
+  const navigate = useNavigate()
 
   const {doctors}= useContext(AppContext)
 
@@ -37,7 +38,7 @@ applyFilter()
           <p>Gastroenterologist</p>
           <p>Psychiatrist</p>
         </div>
-        <div>
+        <div className='w-full grid-col-auto gap-y-6'>
           {
             filterDoc.map((item, index) => (
               <div
@@ -45,7 +46,7 @@ applyFilter()
                 onClick={() => navigate(`/appointment/${item.id}`)}
                 className='border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[10px] transition-all duration-500'
               >
-                <img className='bg-blue-50 w-full h-40 object-cover' src={item.image} alt={item.name} />
+                <img className='bg-blue-50' src={item.image} alt={item.name} />
                 
                 <div className='p-4'>
                   <div className='flex items-center gap-2 text-sm text-green-500'>
