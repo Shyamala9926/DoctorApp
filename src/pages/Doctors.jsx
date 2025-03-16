@@ -36,9 +36,7 @@ applyFilter()
           <p>pediatricians</p>
           <p>Neurologist</p>
           <p>Gastroenterologist</p>
-          <p>Cardiologists</p>
-          <p>Gastroenterologist</p>
-          <p>Psychiatrist</p>
+          
 
         </div>
         <div className='w-full grid-col-auto gap-y-6'>
