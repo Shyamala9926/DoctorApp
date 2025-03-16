@@ -25,8 +25,8 @@ applyFilter()
   //console.log(speciality)
   return (
     <div>
-      <p>Browse through the doctors specialist.</p>
-      <div>
+      <p className='text-gray-600'>Browse through the doctors specialist.</p>
+      <div className='flex flex-coll sm:flex-row item-start gap-5 mt-5'>
         <div>
         <p>Gastroenterologist</p>
         <p>Psychiatrist</p>
@@ -36,9 +36,7 @@ applyFilter()
           <p>pediatricians</p>
           <p>Neurologist</p>
           <p>Gastroenterologist</p>
-          <p>Cardiologists</p>
-          <p>Gastroenterologist</p>
-          <p>Psychiatrist</p>
+          
 
         </div>
         <div className='w-full grid-col-auto gap-y-6'>
