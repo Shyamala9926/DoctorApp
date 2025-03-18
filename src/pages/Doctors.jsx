@@ -27,15 +27,15 @@ applyFilter()
     <div>
       <p className='text-gray-600'>Browse through the doctors specialist.</p>
       <div className='flex flex-coll sm:flex-row item-start gap-5 mt-5'>
-        <div>
-        <p>Gastroenterologist</p>
-        <p>Psychiatrist</p>
-          <p>General physician</p>
-          <p>Gyneocologist</p>
-          <p>Dermatologist</p>
-          <p>pediatricians</p>
-          <p>Neurologist</p>
-          <p>Gastroenterologist</p>
+        <div className='flex-col gap-4 text-sm text-gray-600'>
+        <p className={'w-[94VW] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer '}>Gastroenterologist</p>
+        <p className={'w-[94VW] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer '}>Psychiatrist</p>
+          <p className={'w-[94VW] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer '}>General physician</p>
+          <p className={'w-[94VW] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer '}>Gyneocologist</p>
+          <p className={'w-[94VW] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer '}>Dermatologist</p>
+          <p className={'w-[94VW] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer '}>pediatricians</p>
+          <p className={'w-[94VW] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer '}>Neurologist</p>
+          <p className={'w-[94VW] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer '}>Gastroenterologist</p>
           
 
         </div>
