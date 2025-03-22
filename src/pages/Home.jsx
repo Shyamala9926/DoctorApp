@@ -12,7 +12,7 @@ function Home() {
      <SpecialityMenu />
      <TopDoctors />
      <Banner />
-     <Doctors />
+     
     
     </div>
   )
