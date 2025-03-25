@@ -1,9 +1,3 @@
-import React from 'react'
-
-function Contact() {
-  return (
-    <div>Contact</div>
-  )
-}
+imp
 
 export default Contact
