@@ -137,7 +137,7 @@ setDocSlots(prev => ([...prev, timeSlots]))
   )
 }
 
-export default Appointment */ 
+export default Appointment **/ 
 
 
 import React, { useContext, useEffect, useState } from "react";
