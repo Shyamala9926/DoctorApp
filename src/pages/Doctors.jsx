@@ -91,7 +91,7 @@ function Doctors() {
 
   return (
     <div>
-      <p className="text-gray-600">Browse through the doctor specialists.</p>
+      <p className="text-gray-600"></p>
       <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
         <div className="flex flex-col gap-4 text-sm text-gray-600">
           {["General physician", "Gynecologist", "Dermatologist", "Pediatrician", "Neurologist", "Gastroenterologist"].map(spec => (
