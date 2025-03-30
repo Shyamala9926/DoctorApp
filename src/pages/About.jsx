@@ -22,18 +22,18 @@ function About() {
       <p>WHY <spam className="text-gray-700 font-semibold">CHOOSE US</spam></p>
     </div>
 
-<div>
-  <div>
+<div className='flex flex-col md:flex-row md-20'>
+  <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-prmary hover:text-white transition-all during-300 text-gay-600 currsor-pointer'>
     <b>Efficiency:</b>
     <p>Streamlined appointment scheduling that fits into your busy lifestyle.</p>
   </div>
 
-  <div>
+  <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-prmary hover:text-white transition-all during-300 text-gay-600 currsor-pointer'>
     <b>Convenience:</b>
     <p>Access to a network of truested healthcare professionals in the area.</p>
   </div>
 
-  <div>
+  <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-prmary hover:text-white transition-all during-300 text-gay-600 currsor-pointer'>
     <b>Personalization:</b>
     <p>Tailored recommendations and reminders to help your health.</p>
   </div>
