@@ -1,9 +1,38 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import{AppContext} from '../context/AppContext'
+function MyAppointments () {
 
-function MyAppointments() {
+  const{doctors}=useContext(AppContext)
+
+
   return (
-    <div>MyAppointments</div>
+    <div>
+      <p className='pb-3 mt-12 font-medium text-zinc-700 border-b'>My Appointment</p>
+      <div>
+        {doctors.slice(0,2).map((item,index)=>(
+          <div className='grid grid-col-[1fr_2fr] gap-4 sm:flex sm:gap-6 py-2 border-b' key={index}>
+          <div>
+            <img className='w-32 bg-indigo-50' src={item.image} alt=''/>
+            </div>
+            <div className='felx-1 text-sm text-zinc-600'>
+              <p className='text-neutral-800 font-semibold'>{item.name}</p>
+              <p>{item.speciality}</p>
+             
+              <p className='text-zinc-700 font-medium mt-1'>Address</p>
+               <p className='text-xs'>{item.address.line1}</p>
+              <p className='text-xs'>{item.address.Line2}</p>
+              <p className='text-xs mt-1'><span className='text-sm text-neutral-700 font-medium'>Date & Time:</span> 16,may,2025| 7:53</p>
+              </div>
+              <div></div>
+              <div>
+                <button>Pay Online</button>
+                <button>Cancle Appointment</button>
+              </div>
+              </div>
+        ))}
+      </div>
+    </div>
   )
 }
 
-export default MyAppointments
+export default MyAppointments 
