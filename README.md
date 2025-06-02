@@ -1,4 +1,4 @@
-By using  DoctorApp
+ DoctorApp
 
 
 
