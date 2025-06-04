@@ -1,6 +1,6 @@
 # DoctorApp
  
-By using react
+By using react.js
 
 
 
