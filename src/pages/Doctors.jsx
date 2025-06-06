@@ -122,7 +122,7 @@ function Doctors() {
           Filters
         </button>
 
-        {/* Filter Sidebar */}
+        {/* Filter Sidebar section */}
         <div
           className={`flex-col gap-4 text-sm text-gray-600 ${
             showFilter ? 'flex' : 'hidden sm:flex'
