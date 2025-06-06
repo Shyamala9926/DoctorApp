@@ -49,7 +49,7 @@ function About() {
 export default About*/ 
 
 import React from 'react';
-import { assets } from "../assets/assets"; // Ensure the correct import path
+import { assets } from "../assets/assets"; 
 
 function About() {
   return (
