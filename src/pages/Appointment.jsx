@@ -214,7 +214,7 @@ function Appointment() {
   return (
     docInfo && (
       <div>
-        {/* Doctor Details */}
+        {/* Doctor Details section */}
         <div className="flex flex-col sm:flex-row gap-4">
           <div>
             <img
