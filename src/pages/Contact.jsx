@@ -52,7 +52,7 @@ function Contact() {
           <p className='font-semibold text-lg text-gray-600'>Career at PRESCRIPTO</p>
           <p className='text-gray-500'>Learn more about our team and job openings</p>
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>
-            Explore Jobs
+            Explore Job
           </button>
         </div>
       </div>
