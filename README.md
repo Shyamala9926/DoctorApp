@@ -22,11 +22,9 @@ A full-stack web application that allows patients to book appointments with doct
 
 ### Backend:
 - Node.js with Express  
-OR  
-- PHP / Python / Java (based on your implementation)
 
-### Database:
-- MongoDB / MySQL / PostgreSQL
+
+### Database:/ MySQL 
 
 ### Authentication:
 - JWT / Sessions / Firebase Auth
