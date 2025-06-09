@@ -24,16 +24,9 @@ A full-stack web application that allows patients to book appointments with doct
 - Node.js with Express  
 
 
-### Database:/ MySQL 
+Database:
+- MongoDB 
 
-### Authentication:
-- JWT / Sessions / Firebase Auth
-
-## 📸 Screenshots
-
-_Add screenshots of your web app here_
-
-## 📂 Folder Structure
 
 
 
