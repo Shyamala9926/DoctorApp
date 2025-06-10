@@ -6,7 +6,7 @@ A full-stack web application that allows patients to book appointments with doct
 
 ## 🚀 Features
 
-- User registration & login (Patients and Doctors)
+- User registration & login Patients and Doctors
 - Book appointments with available doctors
 - Doctors can manage their schedules
 - Admin dashboard for managing users and appointments
