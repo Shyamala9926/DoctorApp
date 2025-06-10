@@ -17,7 +17,7 @@ A full-stack web application that allows patients to book appointments with doct
 
 ### Frontend:
 - HTML5, CSS3, JavaScript
-- Bootstrap or Tailwind CSS
+-  Tailwind CSS
 - React.js 
 
 ### Backend:
