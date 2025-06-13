@@ -1,4 +1,4 @@
-# 🏥 Doctor Appointment Booking Website
+# Doctor Appointment Booking Website
 
 🏥 A full-stack web application that allows patients to book appointments with doctors, view schedules, and manage their health consultations online.
 
