@@ -140,7 +140,9 @@ setDocSlots(prev => ([...prev, timeSlots]))
 export default Appointment **/ 
 
 
-import React, { useContext, useEffect, useState } from "react";
+//import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+
 import { useParams } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
 import { assets } from "../assets/assets";
